@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="Search_Data" representedClassName="Search_Data" syncable="YES">
+        <attribute name="indexString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mapId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Search_History" representedClassName="Search_History" syncable="YES">
+        <attribute name="mapId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="searchTime" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Search_Data" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Search_History" positionX="-54" positionY="9" width="128" height="75"/>
+    </elements>
+</model>

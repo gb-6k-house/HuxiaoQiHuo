@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MarketMainItemCell" rowHeight="50" id="68R-EC-OcN" customClass="MarketMainItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="68R-EC-OcN" id="2nr-T0-poi">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Guo-zK-VlS" customClass="UnderlineView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="underlineColor">
+                                <color key="value" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+0.31%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aUl-a2-y5T">
+                        <rect key="frame" x="245" y="10" width="60" height="30"/>
+                        <color key="backgroundColor" red="1" green="0.36862745099999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="OkM-tj-46G"/>
+                            <constraint firstAttribute="height" constant="30" id="ib0-5h-RjF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3044.11" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="1S5-sU-4oY">
+                        <rect key="frame" x="165" y="15" width="70" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="LLp-vx-Qki"/>
+                            <constraint firstAttribute="width" constant="70" id="htW-hr-qhj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.36862745099999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="道琼期欧美50指数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXW-5K-fcg">
+                        <rect key="frame" x="10" y="7" width="116" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2016-5（FEXU6）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Riv-Ok-G72">
+                        <rect key="frame" x="10" y="27" width="104" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Riv-Ok-G72" firstAttribute="top" secondItem="GXW-5K-fcg" secondAttribute="bottom" constant="3" id="4iP-vJ-dSO"/>
+                    <constraint firstAttribute="trailing" secondItem="aUl-a2-y5T" secondAttribute="trailing" constant="15" id="Gfi-Q9-ZHV"/>
+                    <constraint firstItem="Guo-zK-VlS" firstAttribute="leading" secondItem="2nr-T0-poi" secondAttribute="leading" id="NKL-DL-pYz"/>
+                    <constraint firstItem="Guo-zK-VlS" firstAttribute="top" secondItem="2nr-T0-poi" secondAttribute="top" id="Zf0-Ud-Ryd"/>
+                    <constraint firstItem="GXW-5K-fcg" firstAttribute="leading" secondItem="2nr-T0-poi" secondAttribute="leading" constant="10" id="aIx-0a-ygS"/>
+                    <constraint firstItem="aUl-a2-y5T" firstAttribute="leading" secondItem="1S5-sU-4oY" secondAttribute="trailing" constant="10" id="e9f-R7-p8d"/>
+                    <constraint firstAttribute="bottom" secondItem="Guo-zK-VlS" secondAttribute="bottom" id="ePA-WA-8Ds"/>
+                    <constraint firstItem="1S5-sU-4oY" firstAttribute="centerY" secondItem="2nr-T0-poi" secondAttribute="centerY" id="jyF-rx-9MC"/>
+                    <constraint firstItem="GXW-5K-fcg" firstAttribute="centerY" secondItem="2nr-T0-poi" secondAttribute="centerY" constant="-10" id="liu-PW-Fqu"/>
+                    <constraint firstAttribute="trailing" secondItem="Guo-zK-VlS" secondAttribute="trailing" id="oql-ug-VHM"/>
+                    <constraint firstItem="Riv-Ok-G72" firstAttribute="leading" secondItem="2nr-T0-poi" secondAttribute="leading" constant="10" id="pyx-bk-0Dc"/>
+                    <constraint firstItem="aUl-a2-y5T" firstAttribute="centerY" secondItem="2nr-T0-poi" secondAttribute="centerY" id="zrC-pV-VDA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblChg" destination="aUl-a2-y5T" id="yZc-Dq-5ra"/>
+                <outlet property="lblDate" destination="Riv-Ok-G72" id="lG6-F4-ugd"/>
+                <outlet property="lblPrice" destination="1S5-sU-4oY" id="BsI-Ul-3Kd"/>
+                <outlet property="lblTitle" destination="GXW-5K-fcg" id="1dz-U4-ymI"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
